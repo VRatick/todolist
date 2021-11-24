@@ -1,0 +1,57 @@
+.input-container, .done-container, .filter-container, .list-container {
+    width: 400px;    
+    padding: 10px 10px 10px 10px;
+}
+
+.input-container {
+    background-color: #007ACC;
+    text-align: center;
+}
+
+.done-container {
+    background-color: #00C42F;
+}
+
+.buttons-container {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.button-filter, .button-green, .button-red, .button-yellow {
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 75px;
+    margin-left: 5px;
+}
+
+.button-green {
+    color: green;
+    background-color: greenyellow;    
+}
+
+.button-red {
+    color: white;
+    background-color: red;   
+}
+
+.button-yellow {
+    color: black;
+    background-color: yellow;    
+}
+
+.input {
+    width: 230px;
+    border-radius: 4px;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
